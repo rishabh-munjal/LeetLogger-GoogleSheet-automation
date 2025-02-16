@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 function Popup() {
 
@@ -18,28 +20,12 @@ function Popup() {
     }
 
   return (
-    <div className="p-4 w-64">
-      <h3 className="text-lg font-bold">Save Question</h3>
-      
-      <input
-        type="text"
-        placeholder="Enter Topic Tag"
-        className="w-full p-2 border rounded mt-2"
-        onChange={(e) => setTopic(e.target.value)}
-      />
-
-      <textarea
-        placeholder="Write a short note..."
-        className="w-full p-2 border rounded mt-2"
-        onChange={(e) => setNote(e.target.value)}
-      />
-
-      <button
-        className="w-full bg-blue-500 text-white py-2 rounded mt-3"
-        onClick={sendDataToBackground}
-      >
-        Save
-      </button>
+    <div className="w-full p-4 bg-white shadow-lg rounded-lg text-center ">
+      <p className="text-sm text-gray-600">Developed by <a href="https://github.com/rishabh-munjal" target="_blank" className="font-bold text-blue-500">@rishabh-munjal</a></p>
+      <div className="mt-3 flex justify-center gap-4">
+        <a href="https://www.linkedin.com/in/rishabh-munjal-591b35230/" target="_blank" className="text-blue-600 text-3xl"><FaLinkedin /></a>
+        <a href="https://github.com/rishabh-munjal" target="_blank" className="text-gray-900  text-3xl"><FaGithub /></a>
+      </div>
     </div>
   )
 }

@@ -8,7 +8,7 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["storage", "scripting", "activeTab"],
+  "permissions": ["storage", "scripting", "activeTab" , "webRequest"],
   "background": {
     "service_worker": "scripts/background.mjs",
     "type": "module"
@@ -23,5 +23,5 @@
     "default_popup": "index.html",
     "default_icon": "icons/icon48.png"
   },
-  "host_permissions": ["https://sheets.googleapis.com/"]
+  "host_permissions": ["https://script.google.com/macros/s/*"]
 }
