@@ -2,7 +2,11 @@
 
 # 📌 Set Up and Use the Chrome Extension Locally
 
-<i> <div style="color : #FFFF00 ">$5 for Chrome Store? Nah, I’d rather spend it on coffee and code! </i></div>
+```diff
+
+! $5 for Chrome Store? Nah, I’d rather spend it on coffee and code!"
+
+```
 
 ## **1️⃣ Clone the Repository**  
 1. Open **Terminal** (or Command Prompt) and run:  
