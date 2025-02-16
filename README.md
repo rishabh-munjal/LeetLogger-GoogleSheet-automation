@@ -105,8 +105,6 @@
 
 # ✒️ Demonstration
 
-[<video width="320" height="240" controls >
-<source src="./Screen Recording 2025-02-17 014424.mp4" type = "video/mp4">
-</video>](https://github.com/rishabh-munjal/LeetLogger-GoogleSheet-automation/blob/main/Screen%20Recording%202025-02-17%20014424.mp4)
+https://github.com/rishabh-munjal/LeetLogger-GoogleSheet-automation/blob/main/Screen%20Recording%202025-02-17%20014424.mp4
 
 
